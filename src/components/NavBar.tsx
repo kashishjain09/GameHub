@@ -1,12 +1,13 @@
 // import React from 'react' 
-import game from '../assets/game.avif';
-import { HStack, Image, Text } from "@chakra-ui/react"
+import game2 from '../assets/game2.png';
+import { HStack, Image} from "@chakra-ui/react"
+import { ColorModeSwitch } from './ColorModeSwitch';
 
 export const NavBar = () => {
   return (
-    <HStack>
-        <Image src={game} boxSize='50px' padding='5px'/>
-        <Text>NavBar</Text>
+    <HStack justifyContent='space-between' padding='10px'>
+        <Image src={game2} boxSize='50px' padding='5px' borderRadius='2px'/>
+        <ColorModeSwitch />
     </HStack>
   )
 }
