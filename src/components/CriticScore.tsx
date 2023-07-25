@@ -9,4 +9,4 @@ export const CriticScore = ({score}:Props) => {
   return (
     <Badge colorScheme={color} fontSize='14px' paddingX={2} borderRadius='4px'>{score}</Badge>
   )
-}
+} 
